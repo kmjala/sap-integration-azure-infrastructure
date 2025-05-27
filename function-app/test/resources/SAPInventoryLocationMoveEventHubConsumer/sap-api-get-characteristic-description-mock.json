@@ -1,0 +1,20 @@
+{
+  "d": {
+    "__metadata": {
+      "id": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_CHARACTERISTIC_SRV/A_ClfnCharcDescForKeyDate(CharcInternalID='1241',Language='EN')",
+      "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_CHARACTERISTIC_SRV/A_ClfnCharcDescForKeyDate(CharcInternalID='1241',Language='EN')",
+      "type": "API_CLFN_CHARACTERISTIC_SRV.A_ClfnCharcDescForKeyDateType",
+      "etag": "W/\"'SADL-202410021541187219990C~20241002154118.7219990'\""
+    },
+    "Delete_mc": true,
+    "Update_mc": true,
+    "CharcInternalID": "1241",
+    "Language": "EN",
+    "CharcDescription": "IS MES RELEVANT",
+    "ChangeNumber": "",
+    "ValidityStartDate": null,
+    "ValidityEndDate": "/Date(253402214400000)/",
+    "KeyDate": "/Date(1729468800000)/",
+    "CharcLastChangedDateTime": "/Date(1727883678721+0000)/"
+  }
+}

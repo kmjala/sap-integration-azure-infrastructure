@@ -1,0 +1,14 @@
+{
+  "type": "sap.s4.beh.productionorder.v1.ProductionOrder.Created.v1",
+  "specversion": "1.0",
+  "source": "/default/sap.s4.beh/S4DCLNT200",
+  "id": "332f7a12-b526-1edf-84aa-cdbe0add764f",
+  "time": "2024-05-13T18:27:18Z",
+  "datacontenttype": "application/json",
+  "data": {
+    "ProductionOrder": "1003981",
+    "ManufacturingOrder": "1003981",
+    "ProductionOrderType": "YBM1",
+    "ProductionPlant": "1021"
+  }
+}

@@ -1,0 +1,6 @@
+# See https://typicode.github.io/husky/how-to.html#project-not-in-git-root-directory
+cd function-app
+
+npm run lint
+npm run prettier:check
+npm run test

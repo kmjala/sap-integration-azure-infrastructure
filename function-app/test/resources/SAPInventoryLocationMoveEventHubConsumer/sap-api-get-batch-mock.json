@@ -1,0 +1,51 @@
+{
+  "d": {
+    "__metadata": {
+      "id": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_BATCH_SRV/Batch(Material='VE0020GMC',BatchIdentifyingPlant='',Batch='0000004352')",
+      "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_BATCH_SRV/Batch(Material='VE0020GMC',BatchIdentifyingPlant='',Batch='0000004352')",
+      "type": "cds_api_batch_srv.BatchType",
+      "etag": "W/\"'SADL-202409271033251356700C~20240927103325.1356700'\""
+    },
+    "Material": "VE0020GMC",
+    "BatchIdentifyingPlant": "",
+    "Batch": "0000004352",
+    "BatchIsMarkedForDeletion": false,
+    "MatlBatchIsInRstrcdUseStock": false,
+    "Supplier": "PL1015",
+    "BatchBySupplier": "TEST_BATCH",
+    "CountryOfOrigin": "",
+    "RegionOfOrigin": "",
+    "MatlBatchAvailabilityDate": null,
+    "ShelfLifeExpirationDate": "/Date(1758844800000)/",
+    "ManufactureDate": "/Date(1727308800000)/",
+    "FreeDefinedDate1": null,
+    "FreeDefinedDate2": null,
+    "FreeDefinedDate3": null,
+    "FreeDefinedDate4": null,
+    "FreeDefinedDate5": null,
+    "FreeDefinedDate6": null,
+    "CreationDateTime": "/Date(1727433101666+0000)/",
+    "LastChangeDateTime": "/Date(1727433205135+0000)/",
+    "BatchExtWhseMgmtInternalId": "cdccfc61-4948-1edf-9f97-67b6c3b5f7a8",
+    "to_BatchCharc": {
+      "__deferred": {
+        "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_BATCH_SRV/Batch(Material='VE0020GMC',BatchIdentifyingPlant='',Batch='0000004352')/to_BatchCharc"
+      }
+    },
+    "to_BatchClass": {
+      "__deferred": {
+        "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_BATCH_SRV/Batch(Material='VE0020GMC',BatchIdentifyingPlant='',Batch='0000004352')/to_BatchClass"
+      }
+    },
+    "to_BatchPlant": {
+      "__deferred": {
+        "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_BATCH_SRV/Batch(Material='VE0020GMC',BatchIdentifyingPlant='',Batch='0000004352')/to_BatchPlant"
+      }
+    },
+    "to_BatchText": {
+      "__deferred": {
+        "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_BATCH_SRV/Batch(Material='VE0020GMC',BatchIdentifyingPlant='',Batch='0000004352')/to_BatchText"
+      }
+    }
+  }
+}

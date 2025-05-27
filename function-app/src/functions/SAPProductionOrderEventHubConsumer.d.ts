@@ -1,0 +1,61 @@
+export type ProductionOrderResult = {
+  MfgOrderCreationDate: string;
+  MfgOrderCreationTime: string;
+  MfgOrderCreationDateTimeISO: string;
+  MfgOrderScheduledEndDate: string;
+  MfgOrderScheduledEndTime: string;
+  MfgOrderScheduledEndDateTimeISO: string;
+  LastChangeDateTime: string;
+  LastChangeDateTimeISO: string;
+  MfgOrderPlannedStartDate: string;
+  MfgOrderPlannedStartTime: string;
+  MfgOrderPlannedStartDateTimeISO: string;
+  MfgOrderPlannedEndDate: string;
+  MfgOrderPlannedEndTime: string;
+  MfgOrderPlannedEndDateTimeISO: string;
+  MfgOrderScheduledStartDate: string;
+  MfgOrderScheduledStartTime: string;
+  MfgOrderScheduledStartDateTimeISO: string;
+  MfgOrderActualReleaseDate: string;
+  MfgOrderActualReleaseDateISO: string;
+  ProductionOrderComponents: {
+    MatlCompRequirementDate: string;
+    MatlCompRequirementTime: string;
+    MatlCompRequirementDateTimeISO: string;
+  }[];
+  ProductionOrderItems: {
+    MfgOrderItemPlndDeliveryDate: string;
+    MfgOrderItemPlndDeliveryDateISO: string;
+    MfgOrderItemActualDeliveryDate: string;
+    MfgOrderItemActualDeliveryDateISO: string;
+  }[];
+  ProductionOrderOperations: {
+    OpErlstSchedldExecStrtDteTmeISO: string;
+    OpErlstSchedldExecStrtDte: string;
+    OpErlstSchedldExecStrtTme: string;
+    OpErlstSchedldExecEndDteTmeISO: string;
+    OpErlstSchedldExecEndDte: string;
+    OpErlstSchedldExecEndTme: string;
+    OpActualExecutionStartDateTimeISO: string;
+    OpActualExecutionStartDate: string;
+    OpActualExecutionStartTime: string;
+    OpActualExecutionEndDateTimeISO: string;
+    OpActualExecutionEndDate: string;
+    OpActualExecutionEndTime: string;
+    OpErlstSchedldProcgStrtDteTmeISO: string;
+    OpErlstSchedldProcgStrtDte: string;
+    OpErlstSchedldProcgStrtTme: string;
+    OpErlstSchedldTrdwnStrtDteTmeISO: string;
+    OpErlstSchedldTrdwnStrtDte: string;
+    OpErlstSchedldTrdwnStrtTme: string;
+    LastChangeDateTimeISO: string;
+    LastChangeDateTime: string;
+  }[];
+  ProductionOrderStatuses: {
+    ManufacturingOrder: string;
+    StatusCode: string;
+    IsUserStatus: string;
+    StatusShortName: string;
+    StatusName: string;
+  }[];
+};

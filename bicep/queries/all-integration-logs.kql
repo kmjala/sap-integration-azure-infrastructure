@@ -1,0 +1,17 @@
+//
+// ---------------------------------------------------------------------------------
+// All Azure Functions logs
+let RawFunctionLogs = CombinedLogs
+| where isnotempty(Properties.InvocationId)
+;
+let FunctionLogs = RawFunctionLogs
+// Populate the correlation id from the log message of the same invocation
+| join kind=leftouter (
+    RawFunctionLogs
+    | extend CorrelationId = extract("correlationId: (?:'([^']*)'|(\\d+)|(null))", 1, Message)
+    | where isnotempty(CorrelationId)
+    | distinct OperationId, CorrelationId
+) on OperationId
+;
+//
+// ---------------------------------------------------------------------------------

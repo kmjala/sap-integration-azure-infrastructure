@@ -1,0 +1,36 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductCharcValue(Product='MES01',ClassType='001',CharcInternalID='1241',CharcValuePositionNumber='1')",
+          "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductCharcValue(Product='MES01',ClassType='001',CharcInternalID='1241',CharcValuePositionNumber='1')",
+          "type": "API_CLFN_PRODUCT_SRV.A_ProductCharcValueType"
+        },
+        "Product": "MES01",
+        "ClassType": "001",
+        "CharcInternalID": "1241",
+        "CharcValuePositionNumber": "1",
+        "KeyDate": "/Date(1729468800000)/",
+        "ChangeNumber": "",
+        "CharcValueDependency": "1",
+        "CharcValue": "NO",
+        "CharcFromNumericValue": "0",
+        "CharcFromNumericValueUnit": "",
+        "CharcToNumericValue": "0",
+        "CharcToNumericValueUnit": "",
+        "CharcFromDecimalValue": "0.00000000000000",
+        "CharcToDecimalValue": "0.00000000000000",
+        "CharcFromAmount": "0.00",
+        "CharcToAmount": "0.00",
+        "Currency": "",
+        "CharcFromDate": null,
+        "CharcToDate": null,
+        "CharcFromTime": "PT00H00M00S",
+        "CharcToTime": "PT00H00M00S",
+        "CharacteristicAuthor": "",
+        "CharcMaintAuthGrp": ""
+      }
+    ]
+  }
+}

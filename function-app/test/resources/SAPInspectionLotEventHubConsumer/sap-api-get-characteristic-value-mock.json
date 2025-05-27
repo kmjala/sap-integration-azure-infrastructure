@@ -1,0 +1,41 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_BATCH_SRV/BatchCharcValue(Material='000000000000000203',BatchIdentifyingPlant='',Batch='0000000189',CharcInternalID='9999999400',CharcValuePositionNumber='1')",
+          "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_BATCH_SRV/BatchCharcValue(Material='000000000000000203',BatchIdentifyingPlant='',Batch='0000000189',CharcInternalID='9999999400',CharcValuePositionNumber='1')",
+          "type": "cds_api_batch_srv.BatchCharcValueType",
+          "etag": "W/\"'SADL-202112290901583102850C~20211229090158.3102850'\""
+        },
+        "Material": "VE0020GMC",
+        "BatchIdentifyingPlant": "",
+        "Batch": "0000004352",
+        "CharcInternalID": "810",
+        "CharcValuePositionNumber": "1",
+        "CharcValueDependency": "1",
+        "CharcValue": "",
+        "CharcFromNumericValue": "2.0231229E7",
+        "CharcFromNumericValueUnit": "",
+        "CharcToNumericValue": "0",
+        "CharcToNumericValueUnit": "",
+        "CharcFromDecimalValue": "0.00000000000000",
+        "CharcToDecimalValue": "0.00000000000000",
+        "CharcFromAmount": "0.00",
+        "CharcToAmount": "0.00",
+        "Currency": "",
+        "CharcFromDate": "/Date(1703808000000)/",
+        "CharcToDate": "/Date(1703808000000)/",
+        "CharcFromTime": "PT00H00M00S",
+        "CharcToTime": "PT00H00M00S",
+        "CharacteristicAuthor": "",
+        "LastChangeDateTime": "/Date(1640768518310+0000)/",
+        "to_BatchCharc": {
+          "__deferred": {
+            "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_BATCH_SRV/BatchCharcValue(Material='000000000000000203',BatchIdentifyingPlant='',Batch='0000000189',CharcInternalID='9999999400',CharcValuePositionNumber='1')/to_BatchCharc"
+          }
+        }
+      }
+    ]
+  }
+}

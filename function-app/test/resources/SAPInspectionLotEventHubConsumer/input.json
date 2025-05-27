@@ -1,0 +1,12 @@
+{
+  "type": "sap.s4.beh.inspectionlot.v1.InspectionLot.Changed.v1",
+  "specversion": "1.0",
+  "source": "/default/sap.s4.beh/S4DCLNT200",
+  "id": "cdccfc61-4948-1edf-a09b-fe060b3377ab",
+  "time": "2024-10-02T17:01:16Z",
+  "datacontenttype": "application/json",
+  "data": {
+    "InspectionLot": "170000001668",
+    "Plant": "1015"
+  }
+}

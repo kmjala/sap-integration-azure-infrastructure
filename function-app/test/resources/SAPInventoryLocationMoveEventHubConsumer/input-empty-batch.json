@@ -1,0 +1,14 @@
+{
+  "type": "wlgore.com.zpsainventory.push.v1",
+  "specversion": "1.0",
+  "source": "/default/sap.s4.custom/S4DCLNT200",
+  "id": "6fc03e92-f316-1edf-a4ae-32ad2cc097db",
+  "time": "2024-10-23T19:04:10Z",
+  "datacontenttype": "application/json",
+  "data": {
+    "EWMWarehouse": "1015",
+    "EWMStorageType": "PS01",
+    "Product": "VE0020GMC",
+    "Batch": ""
+  }
+}

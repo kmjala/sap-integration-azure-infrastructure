@@ -1,0 +1,20 @@
+{
+  "d": {
+    "__metadata": {
+      "id": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_CHARACTERISTIC_SRV/A_ClfnCharcDescForKeyDate(CharcInternalID='810',Language='EN')",
+      "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_CHARACTERISTIC_SRV/A_ClfnCharcDescForKeyDate(CharcInternalID='810',Language='EN')",
+      "type": "API_CLFN_CHARACTERISTIC_SRV.A_ClfnCharcDescForKeyDateType",
+      "etag": "W/\"'SADL-202012230858486161670C~20201223085848.6161670'\""
+    },
+    "Delete_mc": true,
+    "Update_mc": true,
+    "CharcInternalID": "810",
+    "Language": "EN",
+    "CharcDescription": "Batch Number",
+    "ChangeNumber": "",
+    "ValidityStartDate": null,
+    "ValidityEndDate": "/Date(253402214400000)/",
+    "KeyDate": "/Date(1728864000000)/",
+    "CharcLastChangedDateTime": "/Date(1608713928616+0000)/"
+  }
+}

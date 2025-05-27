@@ -1,0 +1,11 @@
+{
+  "type": "wlgore.com.zcoadelivery.push.v1",
+  "specversion": "1.0",
+  "source": "/default/sap.s4.custom/S4DCLNT200",
+  "id": "6fc03e92-f316-1edf-a3ab-6a10f77b17d8",
+  "time": "2024-10-18T14:14:40Z",
+  "datacontenttype": "application/json",
+  "data": {
+    "FO": "6100004409"
+  }
+}

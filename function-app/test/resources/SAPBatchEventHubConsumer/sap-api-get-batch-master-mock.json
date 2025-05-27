@@ -1,0 +1,67 @@
+{
+  "d": {
+    "__metadata": {
+      "id": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_BATCH_SRV/Batch(Material='000000000000000203',BatchIdentifyingPlant='',Batch='0000000189')",
+      "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_BATCH_SRV/Batch(Material='000000000000000203',BatchIdentifyingPlant='',Batch='0000000189')",
+      "type": "cds_api_batch_srv.BatchType",
+      "etag": "W/\"'SADL-202112290901583102850C~20211229090158.3102850'\""
+    },
+    "Material": "000000000000000203",
+    "BatchIdentifyingPlant": "",
+    "Batch": "0000000189",
+    "BatchIsMarkedForDeletion": false,
+    "MatlBatchIsInRstrcdUseStock": false,
+    "Supplier": "",
+    "BatchBySupplier": "",
+    "CountryOfOrigin": "",
+    "RegionOfOrigin": "",
+    "MatlBatchAvailabilityDate": null,
+    "ShelfLifeExpirationDate": "/Date(1703808000000)/",
+    "ManufactureDate": "/Date(1640736000000)/",
+    "FreeDefinedDate1": null,
+    "FreeDefinedDate2": null,
+    "FreeDefinedDate3": null,
+    "FreeDefinedDate4": null,
+    "FreeDefinedDate5": null,
+    "FreeDefinedDate6": null,
+    "CreationDateTime": "/Date(1640768518310+0000)/",
+    "LastChangeDateTime": "/Date(1640768518310+0000)/",
+    "BatchExtWhseMgmtInternalId": "4201c0a8-0777-1eec-9a90-bebe0801bbc3",
+    "to_BatchCharc": {
+      "results": []
+    },
+    "to_BatchClass": {
+      "__deferred": {
+        "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_BATCH_SRV/Batch(Material='000000000000000203',BatchIdentifyingPlant='',Batch='0000000189')/to_BatchClass"
+      }
+    },
+    "to_BatchPlant": {
+      "results": [
+        {
+          "__metadata": {
+            "id": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_BATCH_SRV/BatchPlant(Material='000000000000000203',Batch='0000000189',Plant='1710')",
+            "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_BATCH_SRV/BatchPlant(Material='000000000000000203',Batch='0000000189',Plant='1710')",
+            "type": "cds_api_batch_srv.BatchPlantType",
+            "etag": "W/\"'SADL-202112290901583102850C~20211229090158.3102850'\""
+          },
+          "Material": "000000000000000203",
+          "Batch": "0000000189",
+          "Plant": "1710",
+          "BatchIdentifyingPlant": "",
+          "InventoryValuationType": "",
+          "LastChangeDateTime": "/Date(1640768518310+0000)/",
+          "to_Batch": {
+            "__deferred": {
+              "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_BATCH_SRV/BatchPlant(Material='000000000000000203',Batch='0000000189',Plant='1710')/to_Batch"
+            }
+          }
+        }
+      ]
+    },
+    "to_BatchText": {
+      "__deferred": {
+        "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_BATCH_SRV/Batch(Material='000000000000000203',BatchIdentifyingPlant='',Batch='0000000189')/to_BatchText"
+      }
+    }
+  }
+}

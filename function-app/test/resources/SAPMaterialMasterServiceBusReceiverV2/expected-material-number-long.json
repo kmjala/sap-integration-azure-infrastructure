@@ -1,0 +1,362 @@
+{
+  "__metadata": {
+    "id": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ClfnProduct('VE0020GMC')",
+    "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ClfnProduct('VE0020GMC')",
+    "type": "API_CLFN_PRODUCT_SRV.A_ClfnProductType"
+  },
+  "Product": "KINGSPOOL BLACK LGE",
+  "ProductType": "YQFP",
+  "CrossPlantStatus": "G3",
+  "CrossPlantStatusValidityDate": "/Date(1717200000000)/",
+  "CreationDate": "/Date(1685664000000)/",
+  "CreatedByUser": "ALEREMOTE",
+  "LastChangeDate": "/Date(1729209600000)/",
+  "LastChangedByUser": "AKAMINSK",
+  "IsMarkedForDeletion": false,
+  "ProductOldID": "KINGSPOOL BLACK LGE",
+  "GrossWeight": "1.000",
+  "PurchaseOrderQuantityUnit": "",
+  "SourceOfSupply": "",
+  "WeightUnit": "KG",
+  "NetWeight": "1.000",
+  "CountryOfOrigin": "US",
+  "CompetitorID": "",
+  "ProductGroup": "01",
+  "BaseUnit": "KG",
+  "ItemCategoryGroup": "",
+  "ProductHierarchy": "",
+  "Division": "04",
+  "VarblPurOrdUnitIsActive": "",
+  "VolumeUnit": "",
+  "MaterialVolume": "0.000",
+  "ANPCode": "0",
+  "Brand": "",
+  "ProcurementRule": "",
+  "ValidityStartDate": null,
+  "LowLevelCode": "000",
+  "ProdNoInGenProdInPrepackProd": "",
+  "SerialIdentifierAssgmtProfile": "",
+  "SizeOrDimensionText": "",
+  "IndustryStandardName": "",
+  "ProductStandardID": "",
+  "InternationalArticleNumberCat": "",
+  "ProductIsConfigurable": false,
+  "IsBatchManagementRequired": true,
+  "ExternalProductGroup": "",
+  "CrossPlantConfigurableProduct": "",
+  "SerialNoExplicitnessLevel": "",
+  "ProductManufacturerNumber": "",
+  "ManufacturerPartProfile": "",
+  "ChangeNumber": "",
+  "MaterialRevisionLevel": "",
+  "HandlingIndicator": "",
+  "WarehouseProductGroup": "",
+  "WarehouseStorageCondition": "",
+  "StandardHandlingUnitType": "",
+  "SerialNumberProfile": "",
+  "AdjustmentProfile": "",
+  "PreferredUnitOfMeasure": "",
+  "IsPilferable": false,
+  "IsRelevantForHzdsSubstances": false,
+  "QuarantinePeriod": "0",
+  "TimeUnitForQuarantinePeriod": "",
+  "QualityInspectionGroup": "QIS",
+  "AuthorizationGroup": "",
+  "HandlingUnitType": "",
+  "HasVariableTareWeight": false,
+  "MaximumPackagingLength": "0.000",
+  "MaximumPackagingWidth": "0.000",
+  "MaximumPackagingHeight": "0.000",
+  "UnitForMaxPackagingDimensions": "",
+  "to_Description": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductDescription(Product='VE0020GMC',Language='EN')",
+          "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductDescription(Product='VE0020GMC',Language='EN')",
+          "type": "API_CLFN_PRODUCT_SRV.A_ProductDescriptionType"
+        },
+        "Product": "KINGSPOOL BLACK LGE",
+        "Language": "EN",
+        "ProductDescription": "Spool Plastic 400 x 425 mm Black"
+      }
+    ]
+  },
+  "to_Plant": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductPlant(Product='VE0020GMC',Plant='1016')",
+          "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductPlant(Product='VE0020GMC',Plant='1016')",
+          "type": "API_CLFN_PRODUCT_SRV.A_ProductPlantType"
+        },
+        "Product": "KINGSPOOL BLACK LGE",
+        "Plant": "1047",
+        "PurchasingGroup": "",
+        "CountryOfOrigin": "US",
+        "RegionOfOrigin": "",
+        "ProductionInvtryManagedLoc": "2000",
+        "ProfileCode": "G3",
+        "ProfileValidityStartDate": "/Date(1685577600000)/",
+        "AvailabilityCheckType": "Y2",
+        "FiscalYearVariant": "",
+        "PeriodType": "M",
+        "ProfitCenter": "100001",
+        "Commodity": "",
+        "GoodsReceiptDuration": "0",
+        "MaintenanceStatusName": "DLBVGAQ",
+        "IsMarkedForDeletion": false,
+        "MRPType": "PD",
+        "MRPResponsible": "131",
+        "ABCIndicator": "C",
+        "MinimumLotSizeQuantity": "0",
+        "MaximumLotSizeQuantity": "0",
+        "FixedLotSizeQuantity": "0",
+        "ConsumptionTaxCtrlCode": "",
+        "IsCoProduct": false,
+        "ProductIsConfigurable": "",
+        "StockDeterminationGroup": "",
+        "StockInTransferQuantity": "0",
+        "StockInTransitQuantity": "0",
+        "HasPostToInspectionStock": false,
+        "IsBatchManagementRequired": true,
+        "SerialNumberProfile": "",
+        "IsNegativeStockAllowed": false,
+        "GoodsReceiptBlockedStockQty": "0",
+        "HasConsignmentCtrl": "",
+        "FiscalYearCurrentPeriod": "2024",
+        "FiscalMonthCurrentPeriod": "5",
+        "ProcurementType": "E",
+        "IsInternalBatchManaged": true,
+        "ProductCFOPCategory": "",
+        "ProductIsExciseTaxRelevant": false,
+        "BaseUnit": "EA",
+        "to_ProductPlantProcurement": {
+          "__deferred": {
+            "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductPlant(Product='VE0020GMC',Plant='1016')/to_ProductPlantProcurement"
+          }
+        },
+        "to_ProductSupplyPlanning": {
+          "__deferred": {
+            "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductPlant(Product='VE0020GMC',Plant='1016')/to_ProductSupplyPlanning"
+          }
+        },
+        "to_ProductWorkScheduling": {
+          "__deferred": {
+            "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductPlant(Product='VE0020GMC',Plant='1016')/to_ProductWorkScheduling"
+          }
+        },
+        "to_StorageLocation": {
+          "__deferred": {
+            "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductPlant(Product='VE0020GMC',Plant='1016')/to_StorageLocation"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductPlant(Product='VE0020GMC',Plant='1015')",
+          "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductPlant(Product='VE0020GMC',Plant='1015')",
+          "type": "API_CLFN_PRODUCT_SRV.A_ProductPlantType"
+        },
+        "Product": "KINGSPOOL BLACK LGE",
+        "Plant": "1047",
+        "PurchasingGroup": "",
+        "CountryOfOrigin": "US",
+        "RegionOfOrigin": "",
+        "ProductionInvtryManagedLoc": "2000",
+        "ProfileCode": "G2",
+        "ProfileValidityStartDate": "/Date(1685577600000)/",
+        "AvailabilityCheckType": "Y4",
+        "FiscalYearVariant": "",
+        "PeriodType": "M",
+        "ProfitCenter": "100116",
+        "Commodity": "",
+        "GoodsReceiptDuration": "0",
+        "MaintenanceStatusName": "DEALVQGB",
+        "IsMarkedForDeletion": false,
+        "MRPType": "P3",
+        "MRPResponsible": "159",
+        "ABCIndicator": "A",
+        "MinimumLotSizeQuantity": "330000",
+        "MaximumLotSizeQuantity": "330000",
+        "FixedLotSizeQuantity": "0",
+        "ConsumptionTaxCtrlCode": "",
+        "IsCoProduct": false,
+        "ProductIsConfigurable": "",
+        "StockDeterminationGroup": "",
+        "StockInTransferQuantity": "0",
+        "StockInTransitQuantity": "0",
+        "HasPostToInspectionStock": false,
+        "IsBatchManagementRequired": true,
+        "SerialNumberProfile": "",
+        "IsNegativeStockAllowed": false,
+        "GoodsReceiptBlockedStockQty": "0",
+        "HasConsignmentCtrl": "",
+        "FiscalYearCurrentPeriod": "2024",
+        "FiscalMonthCurrentPeriod": "3",
+        "ProcurementType": "E",
+        "IsInternalBatchManaged": true,
+        "ProductCFOPCategory": "",
+        "ProductIsExciseTaxRelevant": false,
+        "BaseUnit": "EA",
+        "to_ProductPlantProcurement": {
+          "__deferred": {
+            "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductPlant(Product='VE0020GMC',Plant='1015')/to_ProductPlantProcurement"
+          }
+        },
+        "to_ProductSupplyPlanning": {
+          "__deferred": {
+            "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductPlant(Product='VE0020GMC',Plant='1015')/to_ProductSupplyPlanning"
+          }
+        },
+        "to_ProductWorkScheduling": {
+          "__deferred": {
+            "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductPlant(Product='VE0020GMC',Plant='1015')/to_ProductWorkScheduling"
+          }
+        },
+        "to_StorageLocation": {
+          "__deferred": {
+            "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductPlant(Product='VE0020GMC',Plant='1015')/to_StorageLocation"
+          }
+        }
+      }
+    ]
+  },
+  "to_ProductCharc": {
+    "__deferred": {
+      "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ClfnProduct('VE0020GMC')/to_ProductCharc"
+    }
+  },
+  "to_ProductClass": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductClass(Product='KINGSPOOL BLACK LGE',ClassInternalID='471')",
+          "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductClass(Product='KINGSPOOL BLACK LGE',ClassInternalID='471')",
+          "type": "API_CLFN_PRODUCT_SRV.A_ProductClassType"
+        },
+        "Product": "KINGSPOOL BLACK LGE",
+        "ClassInternalID": "471",
+        "KeyDate": "/Date(1727740800000)/",
+        "ChangeNumber": "",
+        "ClassType": "023",
+        "to_Characteristics": {
+          "results": [
+            {
+              "__metadata": {
+                "id": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductClassCharc(Product='KINGSPOOL BLACK LGE',ClassInternalID='545',CharcInternalID='1236')",
+                "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductClassCharc(Product='KINGSPOOL BLACK LGE',ClassInternalID='545',CharcInternalID='1236')",
+                "type": "API_CLFN_PRODUCT_SRV.A_ProductClassCharcType"
+              },
+              "Product": "KINGSPOOL BLACK LGE",
+              "ClassInternalID": "471",
+              "CharcInternalID": "1241",
+              "KeyDate": "/Date(1727740800000)/",
+              "ChangeNumber": "",
+              "ClassType": "001",
+              "to_Valuation": {
+                "results": [
+                  {
+                    "__metadata": {
+                      "id": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductCharcValue(Product='KINGSPOOL BLACK LGE',ClassType='001',CharcInternalID='1241',CharcValuePositionNumber='1')",
+                      "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ProductCharcValue(Product='KINGSPOOL BLACK LGE',ClassType='001',CharcInternalID='1241',CharcValuePositionNumber='1')",
+                      "type": "API_CLFN_PRODUCT_SRV.A_ProductCharcValueType"
+                    },
+                    "Product": "KINGSPOOL BLACK LGE",
+                    "ClassType": "001",
+                    "CharcInternalID": "1241",
+                    "CharcValuePositionNumber": "1",
+                    "KeyDate": "/Date(1729468800000)/",
+                    "ChangeNumber": "",
+                    "CharcValueDependency": "1",
+                    "CharcValue": "YES",
+                    "CharcFromNumericValue": "0",
+                    "CharcFromNumericValueUnit": "",
+                    "CharcToNumericValue": "0",
+                    "CharcToNumericValueUnit": "",
+                    "CharcFromDecimalValue": "0.00000000000000",
+                    "CharcToDecimalValue": "0.00000000000000",
+                    "CharcFromAmount": "0.00",
+                    "CharcToAmount": "0.00",
+                    "Currency": "",
+                    "CharcFromDate": null,
+                    "CharcToDate": null,
+                    "CharcFromTime": "PT00H00M00S",
+                    "CharcToTime": "PT00H00M00S",
+                    "CharacteristicAuthor": "",
+                    "CharcMaintAuthGrp": ""
+                  }
+                ]
+              },
+              "to_Description_WLG": {
+                "__metadata": {
+                  "id": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_CHARACTERISTIC_SRV/A_ClfnCharcDescForKeyDate(CharcInternalID='1241',Language='EN')",
+                  "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_CHARACTERISTIC_SRV/A_ClfnCharcDescForKeyDate(CharcInternalID='1241',Language='EN')",
+                  "type": "API_CLFN_CHARACTERISTIC_SRV.A_ClfnCharcDescForKeyDateType",
+                  "etag": "W/\"'SADL-202410021541187219990C~20241002154118.7219990'\""
+                },
+                "Delete_mc": true,
+                "Update_mc": true,
+                "CharcInternalID": "1241",
+                "Language": "EN",
+                "CharcDescription": "IS MES RELEVANT",
+                "ChangeNumber": "",
+                "ValidityStartDate": null,
+                "ValidityEndDate": "/Date(253402214400000)/",
+                "KeyDate": "/Date(1729468800000)/",
+                "CharcLastChangedDateTime": "/Date(1727883678721+0000)/"
+              }
+            }
+          ]
+        },
+        "to_ClassDetails": {
+          "__metadata": {
+            "id": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ClfnClassForKeyDate('529')",
+            "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ClfnClassForKeyDate('529')",
+            "type": "API_CLFN_PRODUCT_SRV.A_ClfnClassForKeyDateType"
+          },
+          "ClassInternalID": "471",
+          "ClassType": "001",
+          "ClassTypeName": "Material Class",
+          "Class": "INTERFACE_DATA",
+          "ClassStatus": "1",
+          "ClassStatusName": "Released",
+          "ClassGroup": "",
+          "ClassGroupName": "",
+          "ClassSearchAuthGrp": "",
+          "ClassClassfctnAuthGrp": "",
+          "ClassMaintAuthGrp": "",
+          "DocNumber": "",
+          "DocumentType": "",
+          "DocumentPart": "",
+          "DocumentVersion": "",
+          "SameClassfctnReaction": "X",
+          "ClassStandardOrgName": "",
+          "ClassStandardNumber": "",
+          "ClassStandardStartDate": null,
+          "ClassStandardVersionStartDate": null,
+          "ClassStandardVersion": "0",
+          "ClassStandardCharcTable": "",
+          "CreationDate": "/Date(1692748800000)/",
+          "LastChangeDate": "/Date(1727827200000)/",
+          "ClassIsLocal": false,
+          "ValidityStartDate": "/Date(1692748800000)/",
+          "ValidityEndDate": "/Date(253402214400000)/",
+          "ClassLastChangedDateTime": "/Date(1727873130358+0000)/",
+          "KeyDate": "/Date(1729468800000)/"
+        }
+      }
+    ]
+  },
+  "to_ProductSalesTax": {
+    "__deferred": {
+      "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ClfnProduct('VE0020GMC')/to_ProductSalesTax"
+    }
+  },
+  "to_SalesDelivery": {
+    "__deferred": {
+      "uri": "https://devs4dba.wlgore.com:44300/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV/A_ClfnProduct('VE0020GMC')/to_SalesDelivery"
+    }
+  },
+  "BaseUnitISOCode_WLG": "KGM"
+}

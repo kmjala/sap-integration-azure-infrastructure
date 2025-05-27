@@ -1,0 +1,124 @@
+{
+    "type": "object",
+    "properties": {
+        "materialNumber": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "unitOfMeasure": {
+            "type": "string"
+        },
+        "plant": {
+            "type": "integer"
+        },
+        "materialStatus": {
+            "type": "string"
+        },
+        "goodsReceiptProcessingTimeInDays": {
+            "type": "integer"
+        },
+        "procurementType": {
+            "type": "string"
+        },
+        "classifications": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "product": {
+                        "type": "string"
+                    },
+                    "classType": {
+                        "type": "string"
+                    },
+                    "charcInternalID": {
+                        "type": "string"
+                    },
+                    "charcValuePositionNumber": {
+                        "type": "string"
+                    },
+                    "keyDate": {
+                        "type": "string"
+                    },
+                    "changeNumber": {
+                        "type": "string"
+                    },
+                    "charcValueDependency": {
+                        "type": "string"
+                    },
+                    "charcValue": {
+                        "type": "string"
+                    },
+                    "charcFromNumericValue": {
+                        "type": "string"
+                    },
+                    "charcFromNumericValueUnit": {
+                        "type": "string"
+                    },
+                    "charcToNumericValue": {
+                        "type": "string"
+                    },
+                    "charcToNumericValueUnit": {
+                        "type": "string"
+                    },
+                    "charcFromDecimalValue": {
+                        "type": "string"
+                    },
+                    "charcToDecimalValue": {
+                        "type": "string"
+                    },
+                    "charcFromAmount": {
+                        "type": "string"
+                    },
+                    "charcToAmount": {
+                        "type": "string"
+                    },
+                    "currency": {
+                        "type": "string"
+                    },
+                    "charcFromDate": {},
+                    "charcToDate": {},
+                    "charcFromTime": {
+                        "type": "string"
+                    },
+                    "charcToTime": {
+                        "type": "string"
+                    },
+                    "characteristicAuthor": {
+                        "type": "string"
+                    },
+                    "charcMaintAuthGroup": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "product",
+                    "classType",
+                    "charcInternalID",
+                    "charcValuePositionNumber",
+                    "keyDate",
+                    "changeNumber",
+                    "charcValueDependency",
+                    "charcValue",
+                    "charcFromNumericValue",
+                    "charcFromNumericValueUnit",
+                    "charcToNumericValue",
+                    "charcToNumericValueUnit",
+                    "charcFromDecimalValue",
+                    "charcToDecimalValue",
+                    "charcFromAmount",
+                    "charcToAmount",
+                    "currency",
+                    "charcFromDate",
+                    "charcToDate",
+                    "charcFromTime",
+                    "charcToTime",
+                    "characteristicAuthor",
+                    "charcMaintAuthGroup"
+                ]
+            }
+        }
+    }
+}

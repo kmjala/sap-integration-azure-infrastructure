@@ -1,0 +1,35 @@
+{
+  "Product": "VE2021",
+  "BaseUnit": "KG",
+  "BaseUnitISOCode": "KGM",
+  "ProductDescription": [
+    {
+      "Language": "EN",
+      "ProductDescription": "GORE Automotive Vents"
+    }
+  ],
+  "PlantData": [
+    {
+      "CountryOfOrigin": null,
+      "GoodsReceiptDuration": "0",
+      "Plant": "1016",
+      "ProcurementType": "E",
+      "ProfileCode": "G3"
+    },
+    {
+      "CountryOfOrigin": "US",
+      "GoodsReceiptDuration": "0",
+      "Plant": "1015",
+      "ProcurementType": "E",
+      "ProfileCode": "G3"
+    },
+    {
+      "CountryOfOrigin": "US",
+      "GoodsReceiptDuration": "0",
+      "Plant": "1047",
+      "ProcurementType": "E",
+      "ProfileCode": "G2"
+    }
+  ],
+  "ProductClass": []
+}

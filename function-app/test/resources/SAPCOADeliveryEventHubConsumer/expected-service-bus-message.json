@@ -1,0 +1,4 @@
+{
+  "outputMessageBlobPath": "topic=SAPCOADeliveryEventHubConsumer/year=2025/month=04/day=02/mid=test-message-id/output.json",
+  "freightOrderId": "6100004409"
+}
