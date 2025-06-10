@@ -1,0 +1,36 @@
+name: Deploy branch
+on:
+  # Run on new commits on main
+  push:
+    branches:
+      - main
+      - features/*
+
+  # Allow workflow to be run manually
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref_name }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    uses: ./.github/workflows/checks-subflow.yaml
+
+  deploy:
+    needs: test
+    uses: ./.github/workflows/deploy-subflow.yaml
+    with:
+      environment: Development
+    secrets: inherit
+
+  # Draft a release when the commit was on the main branch
+  # draft-release:
+  #   if: github.ref_name == 'main'
+  #   needs: deploy
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - uses: wlgore/action-create-release@v1
+  #       with:
+  #         token: ${{ github.token }}

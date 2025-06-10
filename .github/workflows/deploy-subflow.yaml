@@ -1,0 +1,95 @@
+name: Deploy subflow
+on:
+  workflow_call:
+    inputs:
+      environment:
+        type: string
+        required: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+    permissions:
+      # Required to request the OIDC JWT Token
+      id-token: write
+      # Required when GH token is used to authenticate with private repo
+      contents: read
+      # Required for wlgore/azure-repository-login to read the job id, so that it can be re-run
+      actions: read
+      # Required for wlgore/create-change-request to read pull-request and deployment information
+      pull-requests: read
+      deployments: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ./function-app/package.json
+          cache-dependency-path: ./function-app/package-lock.json
+          cache: npm
+
+      - name: Create deployment package
+        working-directory: ./function-app
+        run: |
+          npm ci
+          npm run build
+          npm prune --omit=dev
+          zip -qr function-app.zip dist node_modules src host.json package.json
+
+      - name: Azure login
+        uses: wlgore/azure-repository-login@v1
+        id: azure-login
+        with:
+          azure-credentials: ${{ secrets.AZURE_CREDENTIALS }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          location: EastUS
+          bot-credentials: ${{ secrets.AZURE_REPOSITORY_LOGIN_BOT_CREDENTIALS }}
+          environment: ${{ inputs.environment }}
+
+      - name: Deploy Bicep
+        id: deploy-bicep
+        uses: azure/arm-deploy@v1
+        with:
+          scope: resourcegroup
+          resourceGroupName: ${{ steps.azure-login.outputs.resource-group }}
+          deploymentName: ${{ steps.azure-login.outputs.deployment-name }}
+          template: main.bicep
+          deploymentMode: Complete
+          parameters: >-
+            compassFunctionAppPrincipalId=${{ vars.COMPASS_FUNCTION_APP_PRINCIPAL_ID }}
+            nemo01FunctionAppPrincipalId=${{ vars.NEMO01_FUNCTION_APP_PRINCIPAL_ID }}
+            mesaFunctionAppPrincipalId=${{ vars.MESA_FUNCTION_APP_PRINCIPAL_ID }}
+            limsFunctionAppPrincipalId=${{ vars.LIMS_FUNCTION_APP_PRINCIPAL_ID }}
+            coaPrincipalId=${{ vars.COA_PRINCIPAL_ID }}
+            mes78FunctionAppPrincipalId=${{ vars.MES78_FUNCTION_APP_PRINCIPAL_ID }}
+            pleinfeldWamasFunctionAppPrincipalId=${{ vars.PLEINFELD_WAMAS_FUNCTION_APP_PRINCIPAL_ID }}
+            sapApiUrl=${{ vars.SAP_API_URL }}
+            sapApiKey=${{ secrets.SAP_API_KEY }}
+            sapApiProdOrderLastChangeTimeThreshold=${{ vars.SAP_API_PRODORDER_LAST_CHANGE_TIME_THRESHOLD }}
+            sapApiProdOrderMaxRetries=${{ vars.SAP_API_PRODORDER_MAX_RETRIES }}
+            sapApiProdOrderRetryDelay=${{ vars.SAP_API_PRODORDER_RETRY_DELAY }}
+
+      - name: Deploy Azure Function code
+        run: >
+          az functionapp deployment source config-zip
+          --resource-group ${{ steps.azure-login.outputs.resource-group }}
+          --name ${{ steps.deploy-bicep.outputs.functionAppName }}
+          --src function-app/function-app.zip
+
+      - name: Write summary
+        env:
+          SUMMARY: |
+            # Deployment summary
+
+            - Resource group: [${{ steps.azure-login.outputs.resource-group }}](https://portal.azure.com/#@wlgore.onmicrosoft.com/resource/subscriptions/${{ secrets.AZURE_SUBSCRIPTION_ID }}/resourceGroups/${{ steps.azure-login.outputs.resource-group }})
+            - Function App: [${{ steps.deploy-bicep.outputs.functionAppName }}](https://portal.azure.com/#@wlgore.onmicrosoft.com/resource/subscriptions/${{ secrets.AZURE_SUBSCRIPTION_ID }}/resourceGroups/${{ steps.azure-login.outputs.resource-group }}/providers/Microsoft.Web/sites/${{ steps.deploy-bicep.outputs.functionAppName }}/appServices)
+        run: echo "$SUMMARY" >> $GITHUB_STEP_SUMMARY
+
+      - name: Create ServiceNow CR
+        if: inputs.environment == 'Validation' || inputs.environment == 'Production'
+        uses: wlgore/create-change-request@v1
+        with:
+          credentials: ${{ secrets.SERVICENOW_CREDENTIALS }}
+          environment: ${{ inputs.environment }}
